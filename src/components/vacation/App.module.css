@@ -1,0 +1,52 @@
+.section {
+  margin-top: 3rem;
+}
+
+.title{
+    justify-content: start;
+}
+
+.section h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  margin: 0;
+}
+
+.section p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.section ul {
+  padding: 0;
+  margin: 0;
+}
+
+.section li {
+  border: 2px solid #282828;
+  padding: 1rem 2.4rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.section li:hover {
+  border: 2px solid #282828;
+  padding: 1rem 2.4rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: #282828;
+  color: #fff;
+}
+
+.vacationListBlock{
+    margin-top: 6rem;
+}
+
+.vacationList {
+  display: flex;
+  flex-direction: column;
+}
+

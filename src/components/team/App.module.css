@@ -1,0 +1,74 @@
+.bgColor{
+  background-color: #282828;
+  margin-top: 2rem;
+}
+
+.vacationListBlock {
+  margin-top: 6rem;
+}
+
+.vacationList {
+  display: flex;
+  flex-direction: column;
+}
+
+.Slide {
+  /* min-height: 20rem; */
+  display: flex;
+  flex-direction: row;
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carouselWrap {
+  margin: 0 8% 0 8%;
+  background-color: #282828;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carouselItem {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #282828;
+}
+
+.caril {
+  flex: 1;
+}
+
+.carouselContent{
+  font-size: 40px;
+  font-weight: 900;
+  text-align: left;
+  color: #fff;
+}
+
+.mainText{
+  line-height: 0.3rem;
+}
+
+.smallText{
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 2rem;
+  margin-bottom: 2.6rem;
+}
+

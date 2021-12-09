@@ -1,0 +1,44 @@
+.section{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.section h1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4.5rem;
+    margin: 0;
+}
+
+.section p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.sectionButton{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.IntroButton{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #282828;
+    text-decoration: none;
+    border-bottom: 1px solid #282828;
+    padding: 1rem 2rem;
+}
+
+.leftSide{
+    float: left;
+
+}
+
+.rightSide{
+    float: right;
+}
